@@ -2,13 +2,13 @@
 This project focuses on the practice of my work related to detection and pedestrian re-identification win-win multi-target tracking.
 
 ## Installation
-* Clone this repo, and we'll call the directory that you cloned as ${FAIRMOT_ROOT}
+* Clone this repo, and we'll call the directory that you cloned as ${WINWINMOT_ROOT}
 * Install dependencies. We use python 3.7 and pytorch >= 1.2.0
 ```
 conda create -n Win-winMOT
 conda activate Win-winMOT
 conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
-cd ${FAIRMOT_ROOT}
+cd ${WINWINMOT_ROOT}
 pip install -r requirements.txt
 cd src/lib/models/networks/DCNv2 sh make.sh
 ```
